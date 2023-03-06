@@ -20,7 +20,7 @@ Finally, we got a 240 annotated images divided into train, validation, and test 
 
 ![image](https://user-images.githubusercontent.com/94979970/222917590-44f101f9-9726-44c6-ab8b-6ab77d65c6df.png)
 
-### Train FastRCNN model using Detectron2
+### Train FastRCNN model using Detectron2 on our Dataset
 
 The generated dataset is exported in ***COCO Format***. A set of lines will be generated:
 
@@ -32,4 +32,19 @@ The generated dataset is exported in ***COCO Format***. A set of lines will be g
     dataset = project.version(*).download("coco")
 
 
-Copy and paste these lines in the [project colab file](https://colab.research.google.com/drive/1xpR85LLGhhSeDygR-TSIvTaH9s_Ltxne?usp=sharing) 
+[the project colab file for Faster RCNN](https://colab.research.google.com/drive/1xpR85LLGhhSeDygR-TSIvTaH9s_Ltxne?usp=sharing) 
+
+### Train YOLOv8 model on our Dataset
+
+The generated dataset is exported in ***COCO Format***. A set of lines will be generated:
+
+    !pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="="***********")
+project = rf.workspace("amlcourse").project("***********")
+dataset = project.version(*).download("yolov8")
+
+
+[the project colab file for Faster RCNN](https://colab.research.google.com/github/KaramAlmaghout/ManipulatorsDetection/blob/main/AML_Assignment1_YOLOv8.ipynb)
+
