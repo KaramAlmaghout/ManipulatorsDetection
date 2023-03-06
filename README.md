@@ -6,6 +6,13 @@ AML Course - Assignment 1
 
 A dataset of two classes of manipulators (Kuka and UR manipulators) is used to train a Faster RCNN model using Detectron 2 and YOLOv8
 
+***UR Robot***  
+![image](https://user-images.githubusercontent.com/94979970/223222439-e5a3e2af-d426-4f34-990f-cc27af1c245b.png)
+
+***Kuka iiwa***   
+![image](https://user-images.githubusercontent.com/94979970/223222208-88e9fd33-d46e-4107-a603-4ec942b06717.png)
+
+
 The dataset is is collected from images of the two manipulators from the robotic lab in Innopolis University, and some other images from Internet
 
 ![image](https://user-images.githubusercontent.com/94979970/222917841-488795ed-3610-44cf-a8f4-3324af9b66c1.png)
