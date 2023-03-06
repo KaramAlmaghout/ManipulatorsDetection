@@ -36,8 +36,15 @@ The generated dataset is exported in ***COCO Format***. A set of lines will be g
 
 [the project colab file for Faster RCNN](https://colab.research.google.com/github/KaramAlmaghout/ManipulatorsDetection/blob/main/AML_Assignment1_FasterRCNN.ipynb) 
 
+![image](https://user-images.githubusercontent.com/94979970/223220273-e55ecb31-99ad-42fd-a61c-11f731eb4b2e.png)
+![image](https://user-images.githubusercontent.com/94979970/223220319-8dd7951c-d251-48e7-ad3d-c8274ce82977.png)
+![image](https://user-images.githubusercontent.com/94979970/223220339-1e0e4358-4f6f-48ae-987d-a3a68dc0c922.png)
+![image](https://user-images.githubusercontent.com/94979970/223220390-373d1cd3-9ab8-4061-95b7-1485d37ee880.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/94979970/223219896-6ac2c07d-dfb1-4ea7-bd34-5daa537f0753.png)
+
 
 
 ### Results
