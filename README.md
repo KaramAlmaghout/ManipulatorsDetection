@@ -39,12 +39,12 @@ The generated dataset is exported in ***COCO Format***. A set of lines will be g
 The generated dataset is exported in ***COCO Format***. A set of lines will be generated:
 
     !pip install roboflow
+    
+    from roboflow import Roboflow
+    rf = Roboflow(api_key="="***********")
+    project = rf.workspace("amlcourse").project("***********")
+    dataset = project.version(*).download("yolov8")
 
-from roboflow import Roboflow
-rf = Roboflow(api_key="="***********")
-project = rf.workspace("amlcourse").project("***********")
-dataset = project.version(*).download("yolov8")
 
-
-[the project colab file for Faster RCNN](https://colab.research.google.com/github/KaramAlmaghout/ManipulatorsDetection/blob/main/AML_Assignment1_YOLOv8.ipynb)
+[the project colab file for YOLOv8](https://colab.research.google.com/github/KaramAlmaghout/ManipulatorsDetection/blob/main/AML_Assignment1_YOLOv8.ipynb)
 
