@@ -2,7 +2,7 @@
 AML Course - Assignment 1
 
 
-### Dataset Preperation 
+## Dataset Preperation 
 
 A dataset of two classes of manipulators (Kuka and UR manipulators) is used to train a Faster RCNN model using Detectron 2 and YOLOv8
 
@@ -20,7 +20,9 @@ Finally, we got a 240 annotated images divided into train, validation, and test 
 
 ![image](https://user-images.githubusercontent.com/94979970/222917590-44f101f9-9726-44c6-ab8b-6ab77d65c6df.png)
 
-### Train FastRCNN model using Detectron2 on our Dataset
+[Link to the annotated dataset](https://universe.roboflow.com/amlcourse/manipulators-detection/dataset/4)
+
+## Train FastRCNN model using Detectron2 on our Dataset
 
 The generated dataset is exported in ***COCO Format***. A set of lines will be generated:
 
@@ -34,7 +36,7 @@ The generated dataset is exported in ***COCO Format***. A set of lines will be g
 
 [the project colab file for Faster RCNN](https://colab.research.google.com/drive/1xpR85LLGhhSeDygR-TSIvTaH9s_Ltxne?usp=sharing) 
 
-### Train YOLOv8 model on our Dataset
+## Train YOLOv8 model on our Dataset
 
 The generated dataset is exported in ***COCO Format***. A set of lines will be generated:
 
@@ -47,4 +49,12 @@ The generated dataset is exported in ***COCO Format***. A set of lines will be g
 
 
 [the project colab file for YOLOv8](https://colab.research.google.com/github/KaramAlmaghout/ManipulatorsDetection/blob/main/AML_Assignment1_YOLOv8.ipynb)
+
+### Results
+
+![image](https://user-images.githubusercontent.com/94979970/223213170-93043072-6e5e-491e-9c6a-b580a8e72ea4.png)
+
+![image](https://user-images.githubusercontent.com/94979970/223213206-9050237a-7b0b-4124-bd05-87081a047b12.png)
+
+![image](https://user-images.githubusercontent.com/94979970/223213302-73d32b30-0d1d-40e3-9a1d-fa5bc92ceced.png)
 
